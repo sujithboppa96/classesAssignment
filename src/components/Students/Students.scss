@@ -1,0 +1,31 @@
+.studentsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.studentall {
+    position: relative;
+    .student{
+        height: 20;
+        width: auto;
+        border: 1px solid black;
+        padding: 5px;
+        margin: 5px;
+        display: inline-block;
+        background-color: lightgray;
+        margin-right: 15px;
+    }
+    .toolTip{
+        position: absolute;
+        width: 120px;
+        border: 1px solid black;
+        padding: 5px;
+        /* margin: 5px; */
+        display: inline-block;
+        background-color: #d6c8c8;
+        padding: 20px;
+        font-size: 20px;
+        margin-left: -15px;
+        z-index: 999;
+        margin-top: 50px;
+    }
+}
